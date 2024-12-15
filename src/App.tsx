@@ -100,7 +100,7 @@ export default function App() {
         />
         <Button onClick={handleAnalyze}>Analyze</Button>
       </div>
-      <Tabs defaultValue="lexical">
+      <Tabs defaultValue="info">
         <TabsList>
           <TabsTrigger value="grammar">Grammar</TabsTrigger>
           <TabsTrigger value="lexical">Lexical Analysis</TabsTrigger>
